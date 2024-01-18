@@ -2,9 +2,9 @@
 - [README English](./README.md)
 
 # zmk-config-ego46
-Ego46的zmk配置文件
-官网:https://www.egokb.com
-使用:https://nickcoutsos.github.io/keymap-editor/ 来编辑。
+Ego46的zmk配置文件  
+官网:https://www.egokb.com  
+使用:https://nickcoutsos.github.io/keymap-editor/ 来编辑。  
 
 ![image](./pic/p2.jpg)
 

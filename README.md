@@ -2,10 +2,10 @@
 - [README English](./README.md)
 
 # zmk-config-ego46
-zmk config for Ego46
-website:https://www.egokb.com
-discord:https://discord.gg/rwY3UyXv
-keymap edit with https://nickcoutsos.github.io/keymap-editor
+zmk config for Ego46  
+website:https://www.egokb.com  
+discord:https://discord.gg/rwY3UyXv  
+keymap edit with https://nickcoutsos.github.io/keymap-editor  
 
 ![image](./pic/p1.jpg)
 
