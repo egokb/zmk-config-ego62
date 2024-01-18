@@ -18,7 +18,7 @@ if BOARD_EGO46_RIGHT
     default "ego46_right"
 endif
 
-if BOARD_EGO46_LEFT || BOARD_EGO46_RIGHT || BOARD_EGO46_DONGLE
+if BOARD_EGO46_DONGLE || BOARD_EGO46_LEFT || BOARD_EGO46_RIGHT
 
     config BOARD
         default "ego46"
