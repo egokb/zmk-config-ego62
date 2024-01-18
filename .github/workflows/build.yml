@@ -46,7 +46,7 @@ jobs:
       - name: Ego46 Right Kconfig file
         run: grep -vE '(^#|^$)' build/right/zephyr/.config
       - name: Rename zmk.uf2
-        run: cp build/left/zephyr/zmk.uf2 ego45_left.uf2 && cp build/right/zephyr/zmk.uf2 ego46_right.uf2 && cp build/dongle/zephyr/zmk.uf2 ego46_dongle.uf2
+        run: cp build/left/zephyr/zmk.uf2 ego46_left.uf2 && cp build/right/zephyr/zmk.uf2 ego46_right.uf2 && cp build/dongle/zephyr/zmk.uf2 ego46_dongle.uf2
       - name: Archive (Ego46)
         uses: actions/upload-artifact@v3
         with:
