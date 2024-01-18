@@ -1,11 +1,11 @@
 - [README 中文](./README-ZH.md)
 - [README English](./README.md)
 
-# zmk-config-flkb
-zmk config for FLKB  
-keymap edit with https://nickcoutsos.github.io/keymap-editor/
+# zmk-config-ego46
+zmk config for Ego46
+website:https://www.egokb.com
 discord:https://discord.gg/rwY3UyXv
-
+keymap edit with https://nickcoutsos.github.io/keymap-editor
 
 ![image](./pic/p1.jpg)
 
@@ -21,12 +21,10 @@ To locate your firmware files...
 
 1. Log into GitHub and navigate to your personal config repository you just uploaded your keymap changes to.
 2. Click "Actions" in the main navigation, and in the left navigation click the "Build" link.
-3. Select the desired workflow run in the centre area of the page (based on date and time of the build you wish to use). You can also start a new build from this page by clicking the "Run workflow" button.
-4. After clicking the desired workflow run, you should be presented with a section at the bottom of the page called "Artifacts". This section contains the results of your build, in a file called "firmware.zip"
-5. Download the firmware zip archive and extract the two `.uf2` files. They are named according to which side they need to be flashed to.
-6. Flash the firmware to your keyboard by double-clicking the reset button to put the it in bootloader mode. A window should pop up showing the contents of the storage on the keyboard. Drag and drop the correct `.uf2` file into the window. When the upload is complete the window will close and the keyboard will exit bootloader mode.
-    - If you only changed [the keymap file](/config/flkb.keymap) you only need to flash the left side firmware to the left side.
-    - If you changed [the conf file](/config/flkb.conf) you should flash both sides their respective files.
+3. Find the corresponding modified workflow and download firmware.zip.
+4. Unzip the file, connect the keyboard to the computer via USB C, double-click the reset button on the back of the keyboard to enter bootloader mode, flash ego46_left.uf2 to the keyboard on the left, flash ego46_right.uf2 to the keyboard on the right and flash ego46_dongle.uf2 to the receiver.
+5. If there is no response from the keyboard, press the reset button on both the left and right keyboards and the dongle at the same time, and then release it simultaneously.
+6. If Bluetooth cannot be connected, you can download the settings_reset.uf2, first flash to the left and right sides and receiver, then repeat steps 4 and 5.
 
 Your keyboard is now ready to use.
 
