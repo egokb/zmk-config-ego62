@@ -34,24 +34,24 @@ jobs:
       - name: West Zephyr export
         run: west zephyr-export
       - name: West Build (dongle)
-        run: west build -s zmk/app -d build/dongle -b ego46_dongle -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
-      - name: Ego46 Dongle Kconfig file
+        run: west build -s zmk/app -d build/dongle -b ego62_dongle -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
+      - name: Ego62 Dongle Kconfig file
         run: grep -vE '(^#|^$)' build/dongle/zephyr/.config
       - name: West Build (left)
-        run: west build -s zmk/app -d build/left -b ego46_left -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config" 
-      - name: Ego46 Left Kconfig file
+        run: west build -s zmk/app -d build/left -b ego62_left -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config" 
+      - name: Ego62 Left Kconfig file
         run: grep -vE '(^#|^$)' build/left/zephyr/.config
       - name: West Build (right)
-        run: west build -s zmk/app -d build/right -b ego46_right -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
-      - name: Ego46 Right Kconfig file
+        run: west build -s zmk/app -d build/right -b ego62_right -- -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
+      - name: Ego62 Right Kconfig file
         run: grep -vE '(^#|^$)' build/right/zephyr/.config
       - name: Rename zmk.uf2
-        run: cp build/left/zephyr/zmk.uf2 ego46_left.uf2 && cp build/right/zephyr/zmk.uf2 ego46_right.uf2 && cp build/dongle/zephyr/zmk.uf2 ego46_dongle.uf2
-      - name: Archive (Ego46)
+        run: cp build/left/zephyr/zmk.uf2 ego62_left.uf2 && cp build/right/zephyr/zmk.uf2 ego62_right.uf2 && cp build/dongle/zephyr/zmk.uf2 ego62_dongle.uf2
+      - name: Archive (Ego62)
         uses: actions/upload-artifact@v3
         with:
           name: firmware
           path: |
-            ego46_left.uf2
-            ego46_right.uf2
-            ego46_dongle.uf2
+            ego62_left.uf2
+            ego62_right.uf2
+            ego62_dongle.uf2

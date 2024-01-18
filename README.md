@@ -1,8 +1,8 @@
 - [README 中文](./README-ZH.md)
 - [README English](./README.md)
 
-# zmk-config-ego46
-zmk config for Ego46  
+# zmk-config-ego62
+zmk config for Ego62  
 website:https://www.egokb.com  
 discord:https://discord.gg/rwY3UyXv  
 keymap edit with https://nickcoutsos.github.io/keymap-editor  
@@ -22,7 +22,7 @@ To locate your firmware files...
 1. Log into GitHub and navigate to your personal config repository you just uploaded your keymap changes to.
 2. Click "Actions" in the main navigation, and in the left navigation click the "Build" link.
 3. Find the corresponding modified workflow and download firmware.zip.
-4. Unzip the file, connect the keyboard to the computer via USB C, double-click the reset button on the back of the keyboard to enter bootloader mode, flash ego46_left.uf2 to the keyboard on the left, flash ego46_right.uf2 to the keyboard on the right and flash ego46_dongle.uf2 to the receiver.
+4. Unzip the file, connect the keyboard to the computer via USB C, double-click the reset button on the back of the keyboard to enter bootloader mode, flash ego62_left.uf2 to the keyboard on the left, flash ego62_right.uf2 to the keyboard on the right and flash ego62_dongle.uf2 to the receiver.
 5. If there is no response from the keyboard, press the reset button on both the left and right keyboards and the dongle at the same time, and then release it simultaneously.
 6. If Bluetooth cannot be connected, you can download the settings_reset.uf2, first flash to the left and right sides and receiver, then repeat steps 4 and 5.
 

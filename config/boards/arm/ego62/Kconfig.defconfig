@@ -3,25 +3,25 @@
 # Copyright (c) 2020 Pete Johanson, Derek Schmell
 # SPDX-License-Identifier: MIT
 
-if BOARD_EGO46_DONGLE
+if BOARD_EGO62_DONGLE
     config ZMK_KEYBOARD_NAME
-    default "ego46"
+    default "ego62"
 endif
 
-if BOARD_EGO46_LEFT
+if BOARD_EGO62_LEFT
     config ZMK_KEYBOARD_NAME
-    default "ego46_left"
+    default "ego62_left"
 endif
 
-if BOARD_EGO46_RIGHT
+if BOARD_EGO62_RIGHT
     config ZMK_KEYBOARD_NAME
-    default "ego46_right"
+    default "ego62_right"
 endif
 
-if BOARD_EGO46_DONGLE || BOARD_EGO46_LEFT || BOARD_EGO46_RIGHT
+if BOARD_EGO62_DONGLE || BOARD_EGO62_LEFT || BOARD_EGO62_RIGHT
 
     config BOARD
-        default "ego46"
+        default "ego62"
 
     config ZMK_SPLIT
         default y

@@ -10,8 +10,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    model = "ego46";
-    compatible = "egokb,ego46";
+    model = "ego62";
+    compatible = "egokb,ego62";
 
     chosen {
         zephyr,code-partition = &code_partition;
