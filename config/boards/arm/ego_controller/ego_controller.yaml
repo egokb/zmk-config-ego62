@@ -1,6 +1,6 @@
-identifier: ego62
-name: ego62
-type: keyboard
+identifier: ego_controller
+name: ego_controller
+type: mcu
 arch: arm
 toolchain:
   - zephyr
