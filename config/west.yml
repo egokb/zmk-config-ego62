@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/refil
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: fujisheng
+      revision: adv360-z3.2-2
       import: app/west.yml
   self:
     path: config
