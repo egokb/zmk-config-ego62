@@ -1,0 +1,8 @@
+file_format: "1"
+id: ego_controller
+name: ego_controller
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
