@@ -7,13 +7,11 @@ Ego62的zmk配置文件
 使用:https://nickcoutsos.github.io/keymap-editor/ 来编辑。  
 
 # 改键教程  
-- [Tutorial 中文](./tutorial/Ego62_tutorial-ZH.md)
-
-![image](./pic/p2.jpg)
-
+- [Tutorial 中文](./tutorial/Ego62_tutorial-ZH.md)  
 参考https://zmk.dev/docs/user-setup  
 现在你的键盘应该可以正常工作了。
 
+![image](./pic/p2.jpg)
 ![image](./pic/p2.jpg)
 ![image](./pic/p3.jpg)
 ![image](./pic/p4.jpg)
