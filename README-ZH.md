@@ -4,7 +4,8 @@
 # zmk-config-ego62
 Ego62的zmk配置文件  
 官网:https://www.egokb.com  
-使用:https://nickcoutsos.github.io/keymap-editor/ 来编辑。  
+使用:https://nickcoutsos.github.io/keymap-editor/ 来编辑。   
+qq群：681306025 Egokb讨论群
 
 # 改键教程  
 - [Tutorial 中文](./tutorial/Ego62_tutorial-ZH.md)  
