@@ -1,19 +1,15 @@
 identifier: egokb_control
 name: egokb_control
-type: keyboard
+type: mcu
 arch: arm
 toolchain:
   - zephyr
   - gnuarmemb
   - xtools
 supported:
-  - gpio
-  - i2c
-  - counter
-  - spi
+  - adc
   - usb_device
-  - nvs
-  - can
-  - kscan
   - ble
+  - ieee802154
   - pwm
+  - watchdog
