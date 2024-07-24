@@ -13,11 +13,11 @@
 #
 ---
 include:
-  - board: ego62_dongle
+  - board: egokb_control
     shield: ego62_dongle
-  - board: ego62_left
+  - board: egokb_control
     shield: ego62_left
-  - board: ego62_right
+  - board: egokb_control
     shield: ego62_right
-  - board: ego62_dongle
+  - board: egokb_control
     shield: settings_reset

@@ -1,5 +1,5 @@
-identifier: ego62
-name: ego62
+identifier: egokb_control
+name: egokb_control
 type: keyboard
 arch: arm
 toolchain:

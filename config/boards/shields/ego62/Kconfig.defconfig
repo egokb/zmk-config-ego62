@@ -1,0 +1,19 @@
+# Copyright (c) 2020 Pete Johanson, Kurtis Lew
+# SPDX-License-Identifier: MIT
+
+if SHIELD_EGO62_DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "ego62"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_EGO62_DONGLE || SHIELD_EGO62_LEFT || SHIELD_EGO62_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
