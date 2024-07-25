@@ -1,0 +1,11 @@
+# Copyright (c) 2020 Pete Johanson, Kurtis Lew
+# SPDX-License-Identifier: MIT
+
+config SHIELD_EGO62_DONGLE
+    def_bool $(shields_list_contains,ego62_dongle)
+
+config SHIELD_EGO62_LEFT
+    def_bool $(shields_list_contains,ego62_left)
+
+config SHIELD_EGO62_RIGHT
+    def_bool $(shields_list_contains,ego62_right)

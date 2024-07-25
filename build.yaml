@@ -11,13 +11,17 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
----
-include:
-  - board: ego62
-    shield: ego62_dongle
-  - board: ego62
-    shield: ego62_left
-  - board: ego62
-    shield: ego62_right
-  - board: ego62
-    shield: settings_reset
+
+board: [ "egokb_control" ]
+shield: [ "ego62_dongle", "ego62_left", "ego62_right", "settings_reset" ]
+
+# ---
+# include:
+#   - board: egokb_control
+#     shield: ego62_dongle
+#   - board: egokb_control
+#     shield: ego62_left
+#   - board: egokb_control
+#     shield: ego62_right
+#   - board: egokb_control
+#     shield: settings_reset
