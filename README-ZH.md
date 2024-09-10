@@ -7,6 +7,8 @@ Ego62的zmk配置文件
 使用:https://nickcoutsos.github.io/keymap-editor/ 来编辑。   
 qq群：681306025 Egokb讨论群
 
+# 常见问题
+- [Q&A 中文](./tutorial/Q&A-ZH.md)  
 # 改键教程  
 - [Tutorial 中文](./tutorial/Ego62_tutorial-ZH.md)  
 参考https://zmk.dev/docs/user-setup  
