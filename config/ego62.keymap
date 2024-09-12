@@ -14,11 +14,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL     &kp N1         &kp N2     &kp N3  &kp N4     &kp N5                                 &kp N6     &kp N7  &kp N8         &kp N9     &kp N0         &kp MINUS
-&kp TAB       &kp Q          &kp W      &kp E   &kp R      &kp T                                  &kp Y      &kp U   &kp I          &kp O      &kp P          &kp BACKSLASH
-&kp CAPSLOCK  &kp A          &kp S      &kp D   &kp F      &kp G                                  &kp H      &kp J   &kp K          &kp L      &kp SEMICOLON  &kp SQT
-&kp LSHFT     &kp Z          &kp X      &kp C   &kp V      &kp B                                  &kp N      &kp M   &kp COMMA      &kp DOT    &kp RCTRL      &kp RIGHT_SHIFT
-&kp LEFT_ALT  &kp BACKSLASH  &kp SPACE  &to 1   &kp GRAVE  &kp LCTRL  &kp LEFT_GUI  &kp QUESTION  &kp ENTER  &to 1   &kp BACKSPACE  &kp SPACE  &kp LBKT       &kp RBKT
+&kp EQUAL     &kp N1         &kp N2     &kp N3  &kp N4     &kp N5                              &kp N6     &kp N7  &kp N8         &kp N9     &kp N0         &kp MINUS
+&kp TAB       &kp Q          &kp W      &kp E   &kp R      &kp T                               &kp Y      &kp U   &kp I          &kp O      &kp P          &kp BACKSLASH
+&kp CAPSLOCK  &kp A          &kp S      &kp D   &kp F      &kp G                               &kp H      &kp J   &kp K          &kp L      &kp SEMICOLON  &kp SQT
+&kp LSHFT     &kp Z          &kp X      &kp C   &kp V      &kp B                               &kp N      &kp M   &kp COMMA      &kp DOT    &kp RCTRL      &kp RIGHT_SHIFT
+&kp LEFT_ALT  &kp BACKSLASH  &kp SPACE  &to 1   &kp GRAVE  &kp LCTRL  &kp LEFT_GUI  &kp SLASH  &kp ENTER  &to 1   &kp BACKSPACE  &kp SPACE  &kp LBKT       &kp RBKT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
