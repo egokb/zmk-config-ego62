@@ -13,7 +13,7 @@
 #
 
 board: [ "egokb_control" ]
-shield: [ "ego62_dongle", "ego62_left", "ego62_right", "settings_reset" ]
+shield: [ "ego62_left", "ego62_right", "settings_reset" ]
 
 # ---
 # include:
