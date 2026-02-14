@@ -1,0 +1,12 @@
+#
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+#
+
+# ZMK-specific defaults for egokb_control
+
+# ZMK USB
+CONFIG_ZMK_USB=y
+
+# ZMK BLE
+CONFIG_ZMK_BLE=y
