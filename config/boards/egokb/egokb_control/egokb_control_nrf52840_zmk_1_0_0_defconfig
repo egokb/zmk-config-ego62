@@ -5,6 +5,9 @@
 
 # ZMK-specific defaults for egokb_control
 
+# UF2 output format for easy flashing
+CONFIG_BUILD_OUTPUT_UF2=y
+
 # ZMK USB
 CONFIG_ZMK_USB=y
 
