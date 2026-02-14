@@ -16,7 +16,7 @@
         compatible = "zmk,physical-layout";
         display-name = "Ego62";
         keys
-            // Row 0 (top)
+            /* Row 0 (top) */
             = <&key_physical_attrs 100 100    0    0 0 0 0>    /* = (EQL) */
             , <&key_physical_attrs 100 100  100    0 0 0 0>    /* 1 */
             , <&key_physical_attrs 100 100  200    0 0 0 0>    /* 2 */
@@ -29,7 +29,7 @@
             , <&key_physical_attrs 100 100 1600    0 0 0 0>    /* 9 */
             , <&key_physical_attrs 100 100 1700    0 0 0 0>    /* 0 */
             , <&key_physical_attrs 100 100 1800    0 0 0 0>    /* - (MINUS) */
-            // Row 1
+            /* Row 1 */
             , <&key_physical_attrs 100 100    0  100 0 0 0>    /* TAB */
             , <&key_physical_attrs 100 100  100  100 0 0 0>    /* Q */
             , <&key_physical_attrs 100 100  200  100 0 0 0>    /* W */
@@ -42,7 +42,7 @@
             , <&key_physical_attrs 100 100 1600  100 0 0 0>    /* O */
             , <&key_physical_attrs 100 100 1700  100 0 0 0>    /* P */
             , <&key_physical_attrs 100 100 1800  100 0 0 0>    /* [ (LBKT) */
-            // Row 2
+            /* Row 2 */
             , <&key_physical_attrs 100 100    0  200 0 0 0>    /* CAPS (CLCK) */
             , <&key_physical_attrs 100 100  100  200 0 0 0>    /* A */
             , <&key_physical_attrs 100 100  200  200 0 0 0>    /* S */
@@ -55,7 +55,7 @@
             , <&key_physical_attrs 100 100 1600  200 0 0 0>    /* L */
             , <&key_physical_attrs 100 100 1700  200 0 0 0>    /* ; (SEMI) */
             , <&key_physical_attrs 100 100 1800  200 0 0 0>    /* ' (SQT) */
-            // Row 3
+            /* Row 3 */
             , <&key_physical_attrs 100 100    0  300 0 0 0>    /* LSHIFT (LSFT) */
             , <&key_physical_attrs 100 100  100  300 0 0 0>    /* \ (NUBS) */
             , <&key_physical_attrs 100 100  200  300 0 0 0>    /* Z */
@@ -68,7 +68,7 @@
             , <&key_physical_attrs 100 100 1600  300 0 0 0>    /* , (CMMA) */
             , <&key_physical_attrs 100 100 1700  300 0 0 0>    /* . (DOT) */
             , <&key_physical_attrs 100 100 1800  300 0 0 0>    /* / (FSLH) */
-            // Row 4 (bottom)
+            /* Row 4 (bottom) */
             , <&key_physical_attrs 100 100  300  400 0 0 0>    /* ~ */
             , <&key_physical_attrs 100 100  400  400 0 0 0>    /* / (FSLH) */
             , <&key_physical_attrs 100 100  550  400 0 0 0>    /* LALT */
