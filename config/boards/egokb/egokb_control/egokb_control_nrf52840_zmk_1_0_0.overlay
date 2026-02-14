@@ -7,7 +7,7 @@
 / {
     chosen {
         zmk,battery = &vbatt;
-    }
+    };
 
     vbatt: vbatt {
         compatible = "zmk,battery-voltage-divider";
