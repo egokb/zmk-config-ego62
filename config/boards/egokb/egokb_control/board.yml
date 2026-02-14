@@ -1,0 +1,5 @@
+board:
+  name: egokb_control
+  vendor: egokb
+  socs:
+    - name: nrf52840
