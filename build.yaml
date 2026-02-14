@@ -15,9 +15,11 @@
 include:
   - board: egokb_control
     shield: ego62_left
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: egokb_control
     shield: ego62_right
+  - board: egokb_control
+    shield: ego62_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: egokb_control
     shield: settings_reset
