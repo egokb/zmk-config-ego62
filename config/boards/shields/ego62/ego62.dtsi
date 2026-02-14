@@ -18,79 +18,73 @@
         display-name = "Default Layout";
 
         keys = <
-            // Row 0: y = 0
-            <&key_physical_attrs 100 100    0    0  0  0  0>  // col 0: EQL
-            <&key_physical_attrs 100 100  100    0  0  0  0>  // col 1: N_1
-            <&key_physical_attrs 100 100  200    0  0  0  0>  // col 2: N_2
-            <&key_physical_attrs 100 100  300    0  0  0  0>  // col 3: N_3
-            <&key_physical_attrs 100 100  400    0  0  0  0>  // col 4: N_4
-            <&key_physical_attrs 100 100  500    0  0  0  0>  // col 5: N_5
-            <&key_physical_attrs 100 100 1300    0  0  0  0>  // col 8: N_6
-            <&key_physical_attrs 100 100 1400    0  0  0  0>  // col 9: N_7
-            <&key_physical_attrs 100 100 1500    0  0  0  0>  // col 10: N_8
-            <&key_physical_attrs 100 100 1600    0  0  0  0>  // col 11: N_9
-            <&key_physical_attrs 100 100 1700    0  0  0  0>  // col 12: N_0
-            <&key_physical_attrs 100 100 1800    0  0  0  0>  // col 13: MINUS
+            <&key_physical_attrs 100 100    0    0  0  0  0>
+            <&key_physical_attrs 100 100  100    0  0  0  0>
+            <&key_physical_attrs 100 100  200    0  0  0  0>
+            <&key_physical_attrs 100 100  300    0  0  0  0>
+            <&key_physical_attrs 100 100  400    0  0  0  0>
+            <&key_physical_attrs 100 100  500    0  0  0  0>
+            <&key_physical_attrs 100 100 1300    0  0  0  0>
+            <&key_physical_attrs 100 100 1400    0  0  0  0>
+            <&key_physical_attrs 100 100 1500    0  0  0  0>
+            <&key_physical_attrs 100 100 1600    0  0  0  0>
+            <&key_physical_attrs 100 100 1700    0  0  0  0>
+            <&key_physical_attrs 100 100 1800    0  0  0  0>
 
-            // Row 1: y = 100
-            <&key_physical_attrs 100 100    0  100  0  0  0>  // col 0: TAB
-            <&key_physical_attrs 100 100  100  100  0  0  0>  // col 1: Q
-            <&key_physical_attrs 100 100  200  100  0  0  0>  // col 2: W
-            <&key_physical_attrs 100 100  300  100  0  0  0>  // col 3: E
-            <&key_physical_attrs 100 100  400  100  0  0  0>  // col 4: R
-            <&key_physical_attrs 100 100  500  100  0  0  0>  // col 5: T
-            <&key_physical_attrs 100 100 1300  100  0  0  0>  // col 8: Y
-            <&key_physical_attrs 100 100 1400  100  0  0  0>  // col 9: U
-            <&key_physical_attrs 100 100 1500  100  0  0  0>  // col 10: I
-            <&key_physical_attrs 100 100 1600  100  0  0  0>  // col 11: O
-            <&key_physical_attrs 100 100 1700  100  0  0  0>  // col 12: P
-            <&key_physical_attrs 100 100 1800  100  0  0  0>  // col 13: LBKT
+            <&key_physical_attrs 100 100    0  100  0  0  0>
+            <&key_physical_attrs 100 100  100  100  0  0  0>
+            <&key_physical_attrs 100 100  200  100  0  0  0>
+            <&key_physical_attrs 100 100  300  100  0  0  0>
+            <&key_physical_attrs 100 100  400  100  0  0  0>
+            <&key_physical_attrs 100 100  500  100  0  0  0>
+            <&key_physical_attrs 100 100 1300  100  0  0  0>
+            <&key_physical_attrs 100 100 1400  100  0  0  0>
+            <&key_physical_attrs 100 100 1500  100  0  0  0>
+            <&key_physical_attrs 100 100 1600  100  0  0  0>
+            <&key_physical_attrs 100 100 1700  100  0  0  0>
+            <&key_physical_attrs 100 100 1800  100  0  0  0>
 
-            // Row 2: y = 200
-            <&key_physical_attrs 100 100    0  200  0  0  0>  // col 0: CLCK
-            <&key_physical_attrs 100 100  100  200  0  0  0>  // col 1: A
-            <&key_physical_attrs 100 100  200  200  0  0  0>  // col 2: S
-            <&key_physical_attrs 100 100  300  200  0  0  0>  // col 3: D
-            <&key_physical_attrs 100 100  400  200  0  0  0>  // col 4: F
-            <&key_physical_attrs 100 100  500  200  0  0  0>  // col 5: G
-            <&key_physical_attrs 100 100 1300  200  0  0  0>  // col 8: H
-            <&key_physical_attrs 100 100 1400  200  0  0  0>  // col 9: J
-            <&key_physical_attrs 100 100 1500  200  0  0  0>  // col 10: K
-            <&key_physical_attrs 100 100 1600  200  0  0  0>  // col 11: L
-            <&key_physical_attrs 100 100 1700  200  0  0  0>  // col 12: SEMI
-            <&key_physical_attrs 100 100 1800  200  0  0  0>  // col 13: SQT
+            <&key_physical_attrs 100 100    0  200  0  0  0>
+            <&key_physical_attrs 100 100  100  200  0  0  0>
+            <&key_physical_attrs 100 100  200  200  0  0  0>
+            <&key_physical_attrs 100 100  300  200  0  0  0>
+            <&key_physical_attrs 100 100  400  200  0  0  0>
+            <&key_physical_attrs 100 100  500  200  0  0  0>
+            <&key_physical_attrs 100 100 1300  200  0  0  0>
+            <&key_physical_attrs 100 100 1400  200  0  0  0>
+            <&key_physical_attrs 100 100 1500  200  0  0  0>
+            <&key_physical_attrs 100 100 1600  200  0  0  0>
+            <&key_physical_attrs 100 100 1700  200  0  0  0>
+            <&key_physical_attrs 100 100 1800  200  0  0  0>
 
-            // Row 3: y = 300
-            <&key_physical_attrs 100 100    0  300  0  0  0>  // col 0: LSFT
-            <&key_physical_attrs 100 100  100  300  0  0  0>  // col 1: NUBS
-            <&key_physical_attrs 100 100  200  300  0  0  0>  // col 2: Z
-            <&key_physical_attrs 100 100  300  300  0  0  0>  // col 3: X
-            <&key_physical_attrs 100 100  400  300  0  0  0>  // col 4: C
-            <&key_physical_attrs 100 100  500  300  0  0  0>  // col 5: V
-            <&key_physical_attrs 100 100 1300  300  0  0  0>  // col 8: B
-            <&key_physical_attrs 100 100 1400  300  0  0  0>  // col 9: N
-            <&key_physical_attrs 100 100 1500  300  0  0  0>  // col 10: M
-            <&key_physical_attrs 100 100 1600  300  0  0  0>  // col 11: CMMA
-            <&key_physical_attrs 100 100 1700  300  0  0  0>  // col 12: DOT
-            <&key_physical_attrs 100 100 1800  300  0  0  0>  // col 13: FSLH
+            <&key_physical_attrs 100 100    0  300  0  0  0>
+            <&key_physical_attrs 100 100  100  300  0  0  0>
+            <&key_physical_attrs 100 100  200  300  0  0  0>
+            <&key_physical_attrs 100 100  300  300  0  0  0>
+            <&key_physical_attrs 100 100  400  300  0  0  0>
+            <&key_physical_attrs 100 100  500  300  0  0  0>
+            <&key_physical_attrs 100 100 1300  300  0  0  0>
+            <&key_physical_attrs 100 100 1400  300  0  0  0>
+            <&key_physical_attrs 100 100 1500  300  0  0  0>
+            <&key_physical_attrs 100 100 1600  300  0  0  0>
+            <&key_physical_attrs 100 100 1700  300  0  0  0>
+            <&key_physical_attrs 100 100 1800  300  0  0  0>
 
-            // Row 4 (拇指区上层): y = 400
-            <&key_physical_attrs 100 100  300  400  0  0  0>  // col 0: ~ (x=3)
-            <&key_physical_attrs 100 100  400  400  0  0  0>  // col 1: FSLH (x=4)
-            <&key_physical_attrs 100 100  550  400  0  0  0>  // col 2: LALT (x=5.5)
-            <&key_physical_attrs 100 100  650  400  0  0  0>  // col 3: SPC (x=6.5)
-            <&key_physical_attrs 100 100  750  400  0  0  0>  // col 4: SPC (x=7.5)
-            <&key_physical_attrs 100 100 1050  400  0  0  0>  // col 9: RCTL (x=10.5)
-            <&key_physical_attrs 100 100 1150  400  0  0  0>  // col 10: RGUI (x=11.5)
-            <&key_physical_attrs 100 100 1250  400  0  0  0>  // col 11: RCTL (x=12.5)
-            <&key_physical_attrs 100 100 1400  400  0  0  0>  // col 12: RGUI (x=14)
-            <&key_physical_attrs 100 100 1500  400  0  0  0>  // col 13: FN1 (x=15)
+            <&key_physical_attrs 100 100  300  400  0  0  0>
+            <&key_physical_attrs 100 100  400  400  0  0  0>
+            <&key_physical_attrs 100 100  550  400  0  0  0>
+            <&key_physical_attrs 100 100  650  400  0  0  0>
+            <&key_physical_attrs 100 100  750  400  0  0  0>
+            <&key_physical_attrs 100 100 1050  400  0  0  0>
+            <&key_physical_attrs 100 100 1150  400  0  0  0>
+            <&key_physical_attrs 100 100 1250  400  0  0  0>
+            <&key_physical_attrs 100 100 1400  400  0  0  0>
+            <&key_physical_attrs 100 100 1500  400  0  0  0>
 
-            // Row 4 (拇指区下层): y = 500
-            <&key_physical_attrs 100 100  650  500  0  0  0>  // col 5: SPC (x=6.5)
-            <&key_physical_attrs 100 100  750  500  0  0  0>  // col 6: RALT (x=7.5)
-            <&key_physical_attrs 100 100 1050  500  0  0  0>  // col 7: RCTL (x=10.5)
-            <&key_physical_attrs 100 100 1150  500  0  0  0>  // col 8: RGUI (x=11.5)
+            <&key_physical_attrs 100 100  650  500  0  0  0>
+            <&key_physical_attrs 100 100  750  500  0  0  0>
+            <&key_physical_attrs 100 100 1050  500  0  0  0>
+            <&key_physical_attrs 100 100 1150  500  0  0  0>
         >;
     };
 
