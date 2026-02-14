@@ -6,6 +6,11 @@
 
 #include "ego62.dtsi"
 
+&physical_layout0 {
+    transform = <&default_transform>;
+    kscan = <&kscan0>;
+};
+
 &kscan0 {
 	row-gpios
 			= <&gpio0 17 GPIO_ACTIVE_HIGH>
