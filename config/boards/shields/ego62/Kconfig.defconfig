@@ -1,7 +1,7 @@
 # Copyright (c) 2020 Pete Johanson, Kurtis Lew
 # SPDX-License-Identifier: MIT
 
-if SHIELD_EGO62_DONGLE
+if SHIELD_EGO62_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "ego62"
@@ -10,7 +10,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 2
+    default 1
 
 endif
 
