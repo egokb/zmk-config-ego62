@@ -12,12 +12,5 @@
 #     shield: reviung41
 #
 
-include:
-  - board: egokb_control//zmk
-    shield: ego62_left
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: egokb_control//zmk
-    shield: ego62_right
-  - board: egokb_control//zmk
-    shield: settings_reset
+board: [ "egokb_control" ]
+shield: [ "ego62_left", "ego62_right", "settings_reset" ]

@@ -6,7 +6,6 @@ toolchain:
   - zephyr
   - gnuarmemb
   - xtools
-  - studio
 supported:
   - adc
   - usb_device
